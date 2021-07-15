@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Home | GIIS Hackathon</title>
+  <link rel="shortcut icon" type="image/jpg" href="TECH.png"/>
+  <meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700'><link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<link rel='stylesheet' href='https://unpkg.com/swiper/swiper-bundle.min.css'><link rel="stylesheet" href="./style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700'><link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/aa09fdd343.js"></script>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="sectionintro">
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="facebook" viewBox="-794 -794 2100 2100"><path d="M93.198-660.547C173.13-736.66 286.83-762.367 394.08-765.57c113.433-1.022 226.82-.404 340.252-.36.446 119.663.486 239.37-.044 359.026-73.307-.13-146.665.18-219.97-.13-46.48-2.895-94.22 32.34-102.67 78.42-1.11 80.07-.397 160.184-.357 240.254 107.52.442 215.037-.133 322.55.27-7.87 115.83-22.242 231.135-39.097 345.988-94.97.89-189.99-.09-284.96.492-.844 341.63.447 683.26-.664 1024.892-141.06.578-282.205-.267-423.262.4-2.672-341.677.22-683.525-1.466-1025.246-68.82-.717-137.677.493-206.49-.58.26-114.853.088-229.704.128-344.518 68.768-.843 137.586.177 206.362-.488 2.088-111.656-2.095-223.443 2.18-335.004 6.894-88.354 40.567-177.365 106.626-238.393z"/></symbol>
+    <symbol id="twitter" viewBox="0 0 300.00006 244.18703"><path d="M94.72 243.18c112.46 0 173.96-93.168 173.96-173.96 0-2.646-.054-5.28-.173-7.903 11.938-8.63 22.314-19.4 30.498-31.66-10.955 4.87-22.744 8.147-35.11 9.625 12.622-7.57 22.313-19.543 26.885-33.817-11.813 7.004-24.895 12.093-38.824 14.84C240.8 8.423 224.916.99 207.326.99c-33.763 0-61.143 27.38-61.143 61.13 0 4.8.537 9.466 1.586 13.942-50.816-2.556-95.875-26.886-126.03-63.88-5.252 9.036-8.28 19.53-8.28 30.73 0 21.212 10.794 39.938 27.208 50.893-10.03-.31-19.454-3.063-27.69-7.646-.01.255-.01.505-.01.78 0 29.61 21.076 54.33 49.052 59.933-5.137 1.4-10.543 2.152-16.122 2.152-3.933 0-7.766-.387-11.49-1.103 7.783 24.293 30.354 41.97 57.114 42.465-20.926 16.402-47.287 26.17-75.937 26.17-4.93 0-9.798-.28-14.584-.845 27.06 17.344 59.19 27.464 93.723 27.464"/></symbol>
+    <symbol id="pinterest" viewBox="0 0 32 32"><path d="M15.996.007C7.162.007 0 7.167 0 16.004c0 6.55 3.938 12.177 9.575 14.65-.045-1.118-.008-2.46.278-3.672.308-1.3 2.058-8.72 2.058-8.72s-.51-1.02-.51-2.528c0-2.37 1.375-4.14 3.086-4.14 1.454 0 2.157 1.09 2.157 2.4 0 1.462-.934 3.65-1.412 5.676-.4 1.696.853 3.08 2.523 3.08 3.03 0 5.072-3.89 5.072-8.504 0-3.505-2.36-6.128-6.655-6.128-4.852 0-7.874 3.617-7.874 7.66 0 1.393.41 2.376 1.054 3.137.297.35.338.49.23.89-.075.297-.25 1.004-.325 1.284-.107.406-.434.55-.8.4-2.236-.91-3.276-3.36-3.276-6.11 0-4.544 3.83-9.994 11.432-9.994 6.106 0 10.128 4.42 10.128 9.164 0 6.275-3.49 10.963-8.633 10.963-1.728 0-3.353-.934-3.907-1.992 0 0-.93 3.687-1.125 4.397-.34 1.23-1.004 2.466-1.61 3.427 1.436.425 2.956.656 4.53.656 8.835 0 15.996-7.16 15.996-15.996S24.83.007 15.997.007z"/></symbol>
+    <symbol id="instagram" viewBox="0 0 512 512"><path d="M256 49.47c67.266 0 75.233.258 101.8 1.47 24.562 1.12 37.9 5.224 46.778 8.674a78.052 78.052 0 0 1 28.966 18.845 78.052 78.052 0 0 1 18.845 28.965c3.45 8.877 7.553 22.216 8.673 46.778 1.212 26.565 1.47 34.532 1.47 101.8s-.258 75.233-1.47 101.8c-1.12 24.562-5.225 37.9-8.674 46.778a83.427 83.427 0 0 1-47.812 47.812c-8.877 3.45-22.216 7.554-46.778 8.674-26.56 1.212-34.527 1.47-101.8 1.47s-75.237-.258-101.8-1.47c-24.562-1.12-37.9-5.225-46.778-8.674a78.05 78.05 0 0 1-28.966-18.845A78.053 78.053 0 0 1 59.61 404.58c-3.45-8.876-7.553-22.215-8.673-46.777-1.212-26.564-1.47-34.532-1.47-101.8s.258-75.233 1.47-101.8c1.12-24.562 5.224-37.9 8.674-46.778A78.052 78.052 0 0 1 78.46 78.458a78.053 78.053 0 0 1 28.966-18.845c8.877-3.45 22.216-7.554 46.778-8.674 26.565-1.213 34.532-1.47 101.8-1.47m0-45.39c-68.418 0-77 .29-103.866 1.515-26.815 1.224-45.127 5.482-61.15 11.71a123.488 123.488 0 0 0-44.62 29.057A123.488 123.488 0 0 0 17.3 90.982c-6.223 16.025-10.48 34.337-11.7 61.152C4.37 179 4.08 187.582 4.08 256s.29 77 1.52 103.866c1.224 26.815 5.482 45.127 11.71 61.15a123.49 123.49 0 0 0 29.057 44.62 123.486 123.486 0 0 0 44.62 29.058c16.025 6.228 34.337 10.486 61.15 11.71 26.87 1.226 35.45 1.516 103.867 1.516s77-.29 103.866-1.516c26.815-1.224 45.127-5.482 61.15-11.71a128.817 128.817 0 0 0 73.678-73.677c6.228-16.025 10.486-34.337 11.71-61.15 1.226-26.87 1.516-35.45 1.516-103.867s-.29-77-1.516-103.866c-1.224-26.815-5.482-45.127-11.71-61.15a123.486 123.486 0 0 0-29.057-44.62A123.487 123.487 0 0 0 421.02 17.3c-16.025-6.223-34.337-10.48-61.152-11.7C333 4.37 324.418 4.08 256 4.08z"/><path d="M256 126.635A129.365 129.365 0 1 0 385.365 256 129.365 129.365 0 0 0 256 126.635zm0 213.338A83.973 83.973 0 1 1 339.974 256 83.974 83.974 0 0 1 256 339.973z"/><circle cx="390.476" cy="121.524" r="30.23"/></symbol> 
+  </svg>
+  
+  <nav class="Navbar">
+    <div id="toggle" class="Toggle Navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse"><span></span></div>
+    
+    <a class="Navbar-brand u-pullRight" href="index.html">GIISTechClub</a>
+    
+    <div id="navbarCollapse" class="Navbar-menu">
+      <ul class="Navbar-menu-major">
+        <li><a href="#vantabirds" style="color:orange;">Home</a></li>
+        <li><a href="#prizes" style="color:orange;">Categories</a></li>
+        <li><a href="#idkfaq" style="color:orange;">FAQs</a></li>
+        <li><a href="#aboutus" style="color:orange;">About Us</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe_MvWJ4iXRZD33YNL7GVz2fygQLw34N0N0BZb4utTbx8Hezw/viewform" target="_blank" style="color:orange;">Apply Now</a></li> <!-- add apply now link here -->
+      </ul>
+      <div class="Navbar-menu-minor">
+        <ul>
+          <li><a href="https://singapore.globalindianschool.org/" target="_blank">About GIIS</a></li>
+        </ul>
+        
+        <ul class="Navbar-menu-social u-Navbar-hidden@sm-up">  
+          <li>
+            <a class="SocialLink" href="https://www.instagram.com/_giistechclub_/" target="_blank">
+              <svg class="SocialLink-icon"><use xlink:href="#instagram" /></svg>
+              <span class="SocialLink-text">Instagram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+      
+    <ul class="Navbar-quickLinks">  
+      <li><a href="https://www.instagram.com/_giistechclub_/" style="color:orange;">Instagram</a></li>
+    </ul>
+  </nav>
+  <script>$('#toggle').click(function() {
+    $(this).toggleClass('is-active');
+    $('#navbarCollapse').toggleClass('is-active');
+  });
+  </script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script>$('#toggle').click(function() {
+  $(this).toggleClass('is-active');
+  $('#navbarCollapse').toggleClass('is-active');
+});
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<section id="vantabirds" class="intro">
+  <div class="titlehome">
+    <h3>The Future is Now.</h3>
+    <h1>GIIS Hackathon 2021</h1>
+    <br>
+    <button class="glow-on-hover" type="button" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSe_MvWJ4iXRZD33YNL7GVz2fygQLw34N0N0BZb4utTbx8Hezw/viewform';">Apply now</button><br><br>
+  <br><br>
+  <div class="containerbutton" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <h1 id="headline" style="font-size: xx-large;">You have:</h1>
+    <div id="countdown">
+      <ul>
+        <li style="display: inline-block;  padding: 1em;"><span id="days"></span>days</li>
+        <li style="display: inline-block;  padding: 1em;"><span id="hours"></span>Hours</li>
+        <li style="display: inline-block;  padding: 1em;"><span id="minutes"></span>Minutes</li>
+        <li style="display: inline-block;  padding: 1em;"><span id="seconds"></span>Seconds</li>
+      </ul>
+    </div>
+    <div class="message">
+    </div>
+    <script>
+      (function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  let birthday = "July 15, 2021 23:59:59",
+      countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        let now = new Date().getTime(),
+            distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          let headline = document.getElementById("headline"),
+              countdown = document.getElementById("countdown"),
+              content = document.getElementById("content");
+
+          headline.innerText = "Sorry, Registrations are now closed.";
+          countdown.style.display = "none";
+          content.style.display = "block";
+
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+    </script>
+  </div>
+<script>
+    var target_date = new Date().getTime() + (1000*3600*48); // set the countdown date
+var days, hours, minutes, seconds; // variables for time units
+
+var countdown = document.getElementById("tiles"); // get tag element
+
+getCountdown();
+
+setInterval(function () { getCountdown(); }, 1000);
+
+function getCountdown(){
+
+	// find the amount of "seconds" between now and target
+	var current_date = new Date().getTime();
+	var seconds_left = (target_date - current_date) / 1000;
+
+	days = pad( parseInt(seconds_left / 86400) );
+	seconds_left = seconds_left % 86400;
+		 
+	hours = pad( parseInt(seconds_left / 3600) );
+	seconds_left = seconds_left % 3600;
+		  
+	minutes = pad( parseInt(seconds_left / 60) );
+	seconds = pad( parseInt( seconds_left % 60 ) );
+
+	// format countdown string + set tag value
+	countdown.innerHTML = "<span>" + days + "</span><span>" + hours + "</span><span>" + minutes + "</span><span>" + seconds + "</span>"; 
+}
+
+function pad(n) {
+	return (n < 10 ? '0' : '') + n;
+}
+
+
+  </script>
+  <h3 style="align-items: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">left to register</h3>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.birds.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script>
+VANTA.NET({
+  el: "#vantabirds",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xff8200,
+  backgroundColor: 0x0
+})
+</script>
+<script>
+VANTA.BIRDS({
+  el: "#vantabirds",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  quantity: 2.00,
+  backgroundAlpha: 0.00
+})
+</script>
+</section>
+<section class="faqs" id="prizes">
+<!-- partial:index.partial.html -->
+<section class="cards-wrapper">
+  <div class="container">
+    <div class="text"></div>
+  </div>
+  <!-- partial -->
+    <script>
+      // ——————————————————————————————————————————————————
+  // TextScramble
+  // ——————————————————————————————————————————————————
+  
+  class TextScramble {
+    constructor(el) {
+      this.el = el;
+      this.chars = '!<>-_\\/[]{}—=+*^?#________';
+      this.update = this.update.bind(this);
+    }      
+    setText(newText) {
+      const oldText = this.el.innerText;
+      const length = Math.max(oldText.length, newText.length);
+      const promise = new Promise(resolve => this.resolve = resolve);
+      this.queue = [];
+      for (let i = 0; i < length; i++) {
+        const from = oldText[i] || '';
+        const to = newText[i] || '';
+        const start = Math.floor(Math.random() * 40);
+        const end = start + Math.floor(Math.random() * 40);
+        this.queue.push({ from, to, start, end });
+      }
+      cancelAnimationFrame(this.frameRequest);
+      this.frame = 0;
+      this.update();
+      return promise;
+    }
+    print(output);
+    print "hello";
+    print = 
+    print("okno but ok ebwjrwojroiewrowhoiriowehwhieurwiuhriuw ")
+    update() {
+      let output = '';
+      let complete = 0;
+      for (let i = 0, n = this.queue.length; i < n; i++) {
+        let { from, to, start, end, char } = this.queue[i];
+        if (this.frame >= end) {
+          complete++;
+          output += to;
+        } else if (this.frame >= start) {
+          if (!char || Math.random() < 0.28) {
+            char = this.randomChar();
+            this.queue[i].char = char;
+          }
+          output += `<span class="dud">${char}</span>`;
+        } else {
+          output += from;
+        }
+      }
+      this.el.innerHTML = output;
+      if (complete === this.queue.length) {
+        this.resolve();
+      } else {
+        this.frameRequest = requestAnimationFrame(this.update);
+        this.frame++;
+      }
+    }
+    randomChar() {
+      return this.chars[Math.floor(Math.random() * this.chars.length)];
+    }}
+  
+  
+  // ——————————————————————————————————————————————————
+  // Example
+  // ——————————————————————————————————————————————————
+  
+  const phrases = [
+  'Categories'];
+  
+  
+  const el = document.querySelector('.text');
+  const fx = new TextScramble(el);
+  
+  let counter = 0;
+  const next = () => {
+    fx.setText(phrases[counter]).then(() => {
+      setTimeout(next, 800);
+    });
+    counter = (counter + 1) % phrases.length;
+  };
+  
+  next();
+    </script>
+  <div class="card-grid-space">
+    <div class="num" style="color:white;">01</div>
+    <a class="cardprizes" style="--bg-img: url(scratch.jpg)">
+      <div>
+        <h1>Grade 6-8</h1>
+        <p>Scratch or MIT App Inventor</p>
+      </div>
+    </a>
+  </div>
+  <div class="card-grid-space">
+    <div class="num" style="color:white;">02</div>
+    <a class="cardprizes" style="--bg-img: url(python.jpeg)">
+      <div>
+        <h1>Grades 9-10</h1>
+        <p>Blender or Python</p>
+      </div>
+    </a>
+  </div>
+  <div class="card-grid-space">
+    <div class="num" style="color:white;">03</div>
+    <a class="cardprizes" style="--bg-img: url(webapp.jpg)">
+      <div>
+        <h1>Grades 11-12</h1>
+        <p>Unity, Web Extension or Web App</p>
+      </div>
+    </a>
+  </div>
+
+</section>
+<!-- partial -->
+</section>
+
+<section class="faqs" id="idkfaq">
+  
+<div class="blog-slider">
+  <div class="blog-slider__wrp swiper-wrapper">
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code" style="font-size:large;">Frequently Asked Questions</span>
+        <div class="blog-slider__title">When is the Hackathon?</div>
+        <div class="blog-slider__text">30th July, 2021 at 09:00am (Singapore time) Save the date. You don't wanna miss this. Also, registration closes on 15th July. Click the button below to add it to your favourite calendar app.
+          <br><br>
+        <div title="Add to Calendar" class="addeventatc">
+  Add to Calendar
+  <span class="start">07/30/2021 09:00 AM</span>
+  <span class="end">07/31/2021 05:00 PM</span>
+  <span class="timezone">Asia/Singapore</span>
+  <span class="title">GIIS Hackathon 2021</span>
+  <span class="description">Join GIIS Hackathon 2021 hosted by the GIIS Tech Club to compete with highly skilled hackers and win exciting prizes.</span>
+  <span class="location">27 Punggol Field Walk, Singapore 828649</span>
+</div></div>
+      </div>
+    </div>
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/jason-leung-798979-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">Frequently Asked Questions</span>
+        <div class="blog-slider__title">Is the event physical or virtual?</div>
+        <div class="blog-slider__text">Virtual! We believe that a virtual event will allow for more intuivite activities and help teammates connect better with each other.</div>
+      </div>
+    </div>
+    
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">Frequently Asked Questions</span>
+        <div class="blog-slider__title">Do I need to have experience in coding?</div>
+        <div class="blog-slider__text">Depends on what you're looking to make! A little background in programming will be helpful, but you'll have plenty of opportunity to join teams and learn from GIIS students, students from other schools, and mentors.</div>
+      </div>
+    </div>
+
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">Frequently Asked Questions</span>
+        <div class="blog-slider__title">Who can participate?</div>
+        <div class="blog-slider__text">Any student from grades 6-12 (or ages 11-17) can participate in the GIIS Hackathon.</div>
+      </div>
+    </div>
+
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">Frequently Asked Questions</span>
+        <div class="blog-slider__title">How many people can be in a team?</div>
+        <div class="blog-slider__text">You may join as an individual or with a team of not more than 4 people in total.</div>
+      </div></div>
+
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+        </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">Frequently Asked Questions</span>
+        <div class="blog-slider__title">Do we have to pay for the Hackathon?</div>
+        <div class="blog-slider__text">Yes, only $10.</div>
+      </div></div>
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+        </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">Frequently Asked Questions</span>
+        <div class="blog-slider__title">Will food be provided?</div>
+        <div class="blog-slider__text">Food will not be provided due to the virtual nature of the event but share a virtual coffee with everyone</div>
+      </div>
+    </div>
+
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+      </div>
+    <div class="blog-slider__content">
+      <span class="blog-slider__code">Frequently Asked Questions</span>
+      <div class="blog-slider__title">What are the prizes?</div>
+      <div class="blog-slider__text">It's a surprise:) But we promise it'll be amazing.</div>
+    </div>
+  </div>
+
+  <div class="blog-slider__item swiper-slide">
+    <div class="blog-slider__img">
+      <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+    </div>
+  <div class="blog-slider__content">
+    <span class="blog-slider__code">Frequently Asked Questions</span>
+    <div class="blog-slider__title">My question isn't listed. How do I reach out?</div>
+    <div class="blog-slider__text">You could either reach out to us on our socials or write to us at contact@giistechclub.co.</div>
+    <a href="https://www.instagram.com/_giistechclub_/" class="blog-slider__button" target="_blank">Instagram</a>
+  </div>
+</div>
+
+  </div>
+  <div class="blog-slider__pagination"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+<script>
+VANTA.CLOUDS({
+  el: "#idkfaq",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  skyColor: 0xe38c41,
+  cloudColor: 0xd7b89a
+})
+</script>
+  </script>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script><script  src="./script.js"></script>
+</section>
+
+<div style="height:10vh; background-color:#333; z-index:9999;" id="aboutus">
+  <div class="container">
+    <div class="box">
+
+        <div class="title">
+            <span class="block"></span>
+            <h1>About Us<span></span></h1>
+        </div>
+
+        <div class="role">
+            <div class="block"></div>
+            <p style="font-family: 'Courier New', Courier, monospace;">People who made this possible.</p>
+        </div>
+
+    </div>
+</div>
+</div>
+      <section class="hero-section" id="idk" style="font-family:'Montserrat', sans-serif;">
+        <!-- partial:index.partial.html -->
+
+        <div class="card-grid">
+          <a class="card" href="https://www.instagram.com/__botayush__">
+            <div class="card__background" style="background-image: url(ayush.jpeg)"></div>
+            <div class="card__content">
+              <p class="card__category">President</p>
+              <h3 class="card__heading">Ayush Garg</h3>
+            </div>
+          </a>
+          <a class="card" href="https://www.instagram.com/shrieks01">
+            <div class="card__background" style="background-image: url(srikar.jpg)"></div>
+            <div class="card__content">
+              <p class="card__category">President</p>
+              <h3 class="card__heading">Srikar Peesapati</h3>
+            </div>
+          </a>
+          <a class="card" href="https://www.instagram.com/ayush.m.a.a.n">
+            <div class="card__background" style="background-image: url(ayushmaan.jpeg)"></div>
+            <div class="card__content">
+              <p class="card__category">Vice President</p>
+              <h3 class="card__heading">Ayushmaan Khurana</h3>
+            </div>
+          </li>
+          <a class="card" href="https://www.instagram.com/ashar_husain_">
+            <div class="card__background" style="background-image: url(ashar.jpeg)"></div>
+            <div class="card__content">
+              <p class="card__category">Secretary</p>
+              <h3 class="card__heading">Ashar Hussain</h3>
+            </div>
+          </a>
+          <a class="card" href="https://www.instagram.com/lightsout_1702">
+            <div class="card__background" style="background-image: url(soham.jpeg)"></div>
+            <div class="card__content">
+              <p class="card__category">Head of Design</p>
+              <h3 class="card__heading">Soham Gokhale</h3>
+            </div>
+          </a>
+          <a class="card" href="https://www.instagram.com/chrispagolu">
+            <div class="card__background" style="background-image: url(chris.jpg)"></div>
+            <div class="card__content">
+              <p class="card__category">Head of Web Development</p>
+              <h3 class="card__heading">Chris Pagolu</h3>
+            </div>
+          </a>
+          <a class="card" href="https://www.instagram.com/aarav61104">
+            <div class="card__background" style="background-image: url(aarav.jpeg)"></div>
+            <div class="card__content">
+              <p class="card__category">Head of Finance and Logistics</p>
+              <h3 class="card__heading">Aarav Rajesh</h3>
+            </div>
+          </a>
+          <a class="card" href="https://www.instagram.com/anialls_007">
+            <div class="card__background" style="background-image: url(anirudh.jpeg)"></div>
+            <div class="card__content">
+              <p class="card__category">Head of Mobile App Development</p>
+              <h3 class="card__heading">Anirudh Ramakrishnan</h3>
+            </div>
+          </a>
+          <a class="card">
+            <div class="card__background" style="background-image: url(IshitaGupta.jpg)"></div>
+            <div class="card__content">
+              <p class="card__category">Head of Marketing</p>
+              <h3 class="card__heading">Ishita Gupta</h3>
+            </div>
+          </a>
+          <a class="card">
+            <div class="card__background" style="background-image: url(Ekansh.jpeg)"></div>
+            <div class="card__content">
+              <p class="card__category">Head of Artificial Intelligence</p>
+              <h3 class="card__heading">Ekansh Rathore</h3>
+            </div>
+          </a>
+          <a class="card" href="https://www.instagram.com/sidd.is.kid">
+            <div class="card__background" style="background-image: url(sidd.jpeg)"></div>
+            <div class="card__content">
+              <p class="card__category">Head of Event Management</p>
+              <h3 class="card__heading">Siddarth Chilukuri</h3>
+            </div>
+          </a>
+          <a class="card" href="https://www.instagram.com/chancellor_sharksta">
+            <div class="card__background" style="background-image: url(shakti.jpeg)"></div>
+            <div class="card__content">
+              <p class="card__category">Head of External Affairs</p>
+              <h3 class="card__heading">Shakthi Vel Prabhakaran</h3>
+            </div>
+          </a>
+          <a class="card" href="https://www.instagram.com/adabhav_1604">
+            <div class="card__background" style="background-image: url(adabhav.jpeg)"></div>
+            <div class="card__content">
+              <p class="card__category">Co-Head of Finance and Logistics</p>
+              <h3 class="card__heading">Adabhav Singh</h3>
+            </div>
+          </a>
+          <a class="card" href="https://www.instagram.com/akankshyazzzz">
+            <div class="card__background" style="background-image: url(Akankshya-1.JPG)"></div>
+            <div class="card__content">
+              <p class="card__category">Co-Head of Marketing</p>
+              <h3 class="card__heading">Akankshya Ingale</h3>
+            </div>
+          </a>
+          <a class="card" href="https://www.instagram.com/a_vi_jay_anand">
+            <div class="card__background" style="background-image: url(Ajay.jpg)"></div>
+            <div class="card__content">
+              <p class="card__category">Co-Head of Design</p>
+              <h3 class="card__heading">Ajay Vijayanand</h3>
+            </div>
+          </a>
+          <a class="card" href="https://www.instagram.com/yuvbindal">
+            <div class="card__background" style="background-image: url(WhatsApp\ Image\ 2021-03-02\ at\ 21.16.07.jpeg)"></div>
+            <div class="card__content">
+              <p class="card__category">Co-Head of Artificial Intelligence</p>
+              <h3 class="card__heading">Yuv Bindal</h3>
+            </div>
+          </a>
+          <a class="card">
+            <div class="card__background" style="background-image: url(bhargav.jpeg)"></div>
+            <div class="card__content">
+              <p class="card__category">Co-Head of Event Management</p>
+              <h3 class="card__heading">Bhargav</h3>
+            </div>
+          </a>
+        <div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+<script>
+  VANTA.WAVES({
+    el: "#idk",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0xbb5016
+  })
+  </script>
+      </section>
+      <p style="color:white; text-align:center;">Made by GIIS TECH CLUB © 2021. <a href="https://github.com/AllStars101-sudo/GIIS-Hackathon-2021-public" style="color:orange;" target="_blank">Open source</a>, as all things should be.</p>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script></section>
+
+</body>
+</html>
